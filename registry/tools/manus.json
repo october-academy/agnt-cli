@@ -1,0 +1,25 @@
+{
+  "id": "manus",
+  "name": "Manus",
+  "category": "ai-agent",
+  "tagline": "범용 AI 에이전트 — 웹 브라우징, 코딩, 데이터 분석을 자율적으로 수행",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": true, "docs_url": "https://manus.im/docs" },
+    "mcp": { "available": false },
+    "cli": { "available": false },
+    "sdk": []
+  },
+  "pricing": {
+    "free_tier": false,
+    "starting_price": "초대 기반 접근"
+  },
+  "solopreneur_use_cases": [
+    "시장 리서치 자동화",
+    "경쟁사 분석 보고서 생성",
+    "데이터 수집 및 정리",
+    "프로토타입 코드 생성"
+  ],
+  "blog_url": "https://agentic30.app/blog/manus-guide",
+  "quickstart": "https://manus.im 에서 웨이트리스트 등록"
+}

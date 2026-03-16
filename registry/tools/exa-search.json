@@ -1,0 +1,29 @@
+{
+  "id": "exa-search",
+  "name": "Exa Search",
+  "category": "research",
+  "tagline": "AI agent 전용 웹 검색 API — 시맨틱 검색으로 에이전트에게 웹 데이터 제공",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": true, "docs_url": "https://exa.ai/docs" },
+    "mcp": { "available": true, "package": "exa-mcp-server" },
+    "cli": { "available": true, "install": "npm install -g exa-code" },
+    "sdk": [
+      { "lang": "python", "package": "exa-py" },
+      { "lang": "javascript", "package": "exa-js" }
+    ]
+  },
+  "pricing": {
+    "free_tier": true,
+    "starting_price": "무료 1,000 검색/월"
+  },
+  "solopreneur_use_cases": [
+    "경쟁사 리서치 자동화",
+    "콘텐츠 소재 발굴",
+    "리드 제너레이션",
+    "시장 트렌드 모니터링",
+    "기술 문서 검색"
+  ],
+  "blog_url": "https://agentic30.app/blog/exa-search-guide",
+  "quickstart": "pip install exa-py && python -c \"from exa_py import Exa; exa = Exa('YOUR_API_KEY'); print(exa.search('indie hacker tools'))\""
+}

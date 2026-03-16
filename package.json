@@ -1,0 +1,42 @@
+{
+  "name": "@agentic30/agnt",
+  "version": "0.1.0",
+  "description": "Agent-friendly CLI for solo developer tool discovery and curriculum",
+  "type": "module",
+  "bin": {
+    "agnt": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "registry"
+  ],
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target node --format esm && node -e \"const f=require('fs');const c=f.readFileSync('dist/index.js','utf8');f.writeFileSync('dist/index.js','#!/usr/bin/env node\\n'+c)\" && chmod +x dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "agent",
+    "cli",
+    "solopreneur",
+    "indie-hacker",
+    "developer-tools",
+    "ai-agent",
+    "curriculum"
+  ],
+  "author": "October Academy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/october-academy/agnt-cli.git"
+  },
+  "homepage": "https://agentic30.app",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "adriel",
+  "name": "Adriel",
+  "category": "advertising",
+  "tagline": "AI 광고 운영 플랫폼 — 멀티채널 광고 데이터 통합과 자동 최적화",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": true, "docs_url": "https://docs.adriel.com" },
+    "mcp": { "available": false },
+    "cli": { "available": false },
+    "sdk": []
+  },
+  "pricing": {
+    "free_tier": true,
+    "starting_price": "무료 플랜 (제한된 채널)"
+  },
+  "solopreneur_use_cases": [
+    "여러 광고 채널 데이터 한곳에서 관리",
+    "AI 기반 광고 예산 자동 최적화",
+    "광고 크리에이티브 성과 분석",
+    "ROAS 실시간 모니터링"
+  ],
+  "blog_url": "https://agentic30.app/blog/adriel-guide",
+  "quickstart": "https://app.adriel.com 에서 무료 계정 생성 후 광고 채널 연결"
+}

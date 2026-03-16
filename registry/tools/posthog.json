@@ -1,0 +1,30 @@
+{
+  "id": "posthog",
+  "name": "PostHog",
+  "category": "analytics",
+  "tagline": "오픈소스 프로덕트 분석 — 이벤트 트래킹, 세션 리플레이, A/B 테스트, 피처 플래그",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": true, "docs_url": "https://posthog.com/docs/api" },
+    "mcp": { "available": true, "package": "posthog-mcp" },
+    "cli": { "available": false },
+    "sdk": [
+      { "lang": "python", "package": "posthog" },
+      { "lang": "javascript", "package": "posthog-js" },
+      { "lang": "node", "package": "posthog-node" }
+    ]
+  },
+  "pricing": {
+    "free_tier": true,
+    "starting_price": "무료 월 100만 이벤트"
+  },
+  "solopreneur_use_cases": [
+    "유저 행동 분석",
+    "퍼널 분석으로 이탈 지점 파악",
+    "A/B 테스트로 전환율 최적화",
+    "세션 리플레이로 UX 개선",
+    "피처 플래그로 점진적 배포"
+  ],
+  "blog_url": "https://agentic30.app/blog/posthog-guide",
+  "quickstart": "npm install posthog-js && posthog.init('YOUR_KEY', { api_host: 'https://us.i.posthog.com' })"
+}

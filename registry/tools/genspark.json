@@ -1,0 +1,25 @@
+{
+  "id": "genspark",
+  "name": "Genspark",
+  "category": "search",
+  "tagline": "AI 검색 엔진 — Sparkpage로 검색 결과를 구조화된 페이지로 자동 생성",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": true, "docs_url": "https://genspark.ai/developers" },
+    "mcp": { "available": false },
+    "cli": { "available": false },
+    "sdk": []
+  },
+  "pricing": {
+    "free_tier": true,
+    "starting_price": "무료"
+  },
+  "solopreneur_use_cases": [
+    "깊이 있는 주제 리서치",
+    "자동 구조화된 리서치 페이지 생성",
+    "경쟁사 비교 분석",
+    "기술 트렌드 조사"
+  ],
+  "blog_url": "https://agentic30.app/blog/genspark-guide",
+  "quickstart": "https://genspark.ai 에서 검색 시작"
+}
