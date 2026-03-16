@@ -1,0 +1,18 @@
+{
+  "id": "vercel-agent-skills",
+  "name": "Vercel Agent Skills",
+  "category": "agent-framework",
+  "tagline": "AI 에이전트에 프로덕션 레디 능력을 붙이는 공식 스킬 컬렉션 — 18+ 에이전트 호환",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": false },
+    "mcp": { "available": false },
+    "cli": { "available": true, "install": "npx skills add vercel-labs/agent-skills" },
+    "sdk": []
+  },
+  "pricing": { "free_tier": true, "starting_price": "무료 오픈소스" },
+  "solopreneur_use_cases": ["에이전트에 Next.js 최신 API 학습시키기", "배포 자동화 스킬", "커머스 연동 스킬", "커스텀 스킬 제작", "AI 코딩 에이전트 역량 확장"],
+  "curriculum_days": [0],
+  "blog_url": "https://agentic30.app/blog/vercel-agent-skills-guide",
+  "quickstart": "npx skills add vercel-labs/agent-skills"
+}

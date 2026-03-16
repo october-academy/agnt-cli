@@ -1,0 +1,18 @@
+{
+  "id": "agent-browser",
+  "name": "Vercel agent-browser",
+  "category": "browser-automation",
+  "tagline": "AI 에이전트를 위한 헤드리스 브라우저 CLI — 스냅샷 기반으로 토큰 90% 절감",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": false },
+    "mcp": { "available": false },
+    "cli": { "available": true, "install": "npm install -g agent-browser && agent-browser install" },
+    "sdk": []
+  },
+  "pricing": { "free_tier": true, "starting_price": "무료 오픈소스 (Apache 2.0)" },
+  "solopreneur_use_cases": ["AI 에이전트 브라우저 자동화", "웹 스크래핑", "폼 자동 제출", "E2E 테스트 자동화", "웹사이트 모니터링"],
+  "curriculum_days": [5, 6],
+  "blog_url": "https://agentic30.app/blog/agent-browser-guide",
+  "quickstart": "npm install -g agent-browser && agent-browser install && agent-browser open https://example.com && agent-browser snapshot"
+}

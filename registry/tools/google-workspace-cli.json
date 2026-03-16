@@ -1,0 +1,18 @@
+{
+  "id": "google-workspace-cli",
+  "name": "Google Workspace CLI",
+  "category": "productivity",
+  "tagline": "Gmail, Drive, Calendar, Sheets를 터미널에서 — Rust 기반 CLI로 구글 워크스페이스 자동화",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": true, "docs_url": "https://developers.google.com/workspace" },
+    "mcp": { "available": false },
+    "cli": { "available": true, "install": "cargo install gws" },
+    "sdk": []
+  },
+  "pricing": { "free_tier": true, "starting_price": "무료 오픈소스 (Google Workspace 구독 별도)" },
+  "solopreneur_use_cases": ["이메일 자동화", "드라이브 파일 관리", "일정 자동 조회", "스프레드시트 데이터 처리", "AI 에이전트 생산성 도구"],
+  "curriculum_days": [6, 7],
+  "blog_url": "https://agentic30.app/blog/google-workspace-cli-guide",
+  "quickstart": "cargo install gws && gws auth login && gws gmail list --max-results 5"
+}

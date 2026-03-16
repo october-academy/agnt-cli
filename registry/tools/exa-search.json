@@ -24,6 +24,7 @@
     "시장 트렌드 모니터링",
     "기술 문서 검색"
   ],
+  "curriculum_days": [2, 3],
   "blog_url": "https://agentic30.app/blog/exa-search-guide",
   "quickstart": "pip install exa-py && python -c \"from exa_py import Exa; exa = Exa('YOUR_API_KEY'); print(exa.search('indie hacker tools'))\""
 }

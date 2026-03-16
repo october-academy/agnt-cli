@@ -1,0 +1,18 @@
+{
+  "id": "railway",
+  "name": "Railway",
+  "category": "deployment",
+  "tagline": "코드를 푸시하면 바로 배포 — Nixpacks 자동 빌드, Docker, 크론까지 지원하는 올인원 배포 플랫폼",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": {"available": true, "docs_url": "https://docs.railway.com/reference/public-api"},
+    "mcp": {"available": true, "package": "railway-mcp"},
+    "cli": {"available": true, "install": "npm install -g @railway/cli"},
+    "sdk": []
+  },
+  "pricing": {"free_tier": true, "starting_price": "Hobby $5/월 + 사용량"},
+  "solopreneur_use_cases": ["백엔드 API 배포", "Discord 봇 호스팅", "크론 잡 실행", "Docker 컨테이너 배포", "monorepo 서비스 배포"],
+  "curriculum_days": [5, 6],
+  "blog_url": "https://agentic30.app/blog/railway-guide",
+  "quickstart": "npm install -g @railway/cli && railway login && railway init && railway up"
+}

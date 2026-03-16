@@ -1,0 +1,18 @@
+{
+  "id": "skills-cli",
+  "name": "Skills CLI (npx skills)",
+  "category": "agent-framework",
+  "tagline": "AI 에이전트 스킬을 npm처럼 설치 — GitHub repo에서 스킬을 검색, 설치, 관리하는 오픈 CLI",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": false },
+    "mcp": { "available": false },
+    "cli": { "available": true, "install": "npx skills" },
+    "sdk": []
+  },
+  "pricing": { "free_tier": true, "starting_price": "무료 오픈소스" },
+  "solopreneur_use_cases": ["AI 에이전트 스킬 설치/관리", "커스텀 스킬 제작/배포", "에이전트 역량 표준화", "크로스 에이전트 호환 (Claude/Codex/Cursor)"],
+  "curriculum_days": [0],
+  "blog_url": "https://agentic30.app/blog/skills-cli-guide",
+  "quickstart": "npx skills add october-academy/agnt -a claude-code --skill '*' -y"
+}

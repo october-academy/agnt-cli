@@ -1,0 +1,18 @@
+{
+  "id": "discord",
+  "name": "Discord",
+  "category": "community",
+  "tagline": "개발자 커뮤니티의 중심 — Bot API로 온보딩, 코칭, 알림을 자동화하는 커뮤니티 플랫폼",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": true, "docs_url": "https://discord.com/developers/docs" },
+    "mcp": { "available": false },
+    "cli": { "available": false },
+    "sdk": [{ "lang": "javascript", "package": "discord.js" }, { "lang": "python", "package": "discord.py" }]
+  },
+  "pricing": { "free_tier": true, "starting_price": "무료 (봇 호스팅 비용 별도)" },
+  "solopreneur_use_cases": ["커뮤니티 온보딩 자동화", "AI 코칭 봇 운영", "GitHub/결제 알림 웹훅", "데일리 스탠드업 봇", "역할 기반 접근 제어"],
+  "curriculum_days": [1, 6],
+  "blog_url": "https://agentic30.app/blog/discord-guide",
+  "quickstart": "npm install discord.js"
+}

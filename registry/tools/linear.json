@@ -1,0 +1,18 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "category": "project-management",
+  "tagline": "빠르고 깔끔한 이슈 트래킹 — 키보드 퍼스트 UI와 사이클 기반 개발로 혼자서도 체계적 관리",
+  "last_verified": "2026-03-16",
+  "agent_interfaces": {
+    "api": { "available": true, "docs_url": "https://developers.linear.app/docs" },
+    "mcp": { "available": true, "package": "linear-mcp" },
+    "cli": { "available": false },
+    "sdk": [{ "lang": "javascript", "package": "@linear/sdk" }]
+  },
+  "pricing": { "free_tier": true, "starting_price": "무료 (250 이슈), Standard $8/월" },
+  "solopreneur_use_cases": ["이슈 트래킹 자동화", "주간 사이클 관리", "로드맵 시각화", "GitHub PR 연동", "AI 에이전트로 이슈 생성"],
+  "curriculum_days": [4],
+  "blog_url": "https://agentic30.app/blog/linear-guide",
+  "quickstart": "npm install @linear/sdk"
+}

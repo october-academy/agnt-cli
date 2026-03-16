@@ -10,13 +10,13 @@ interface DayOverview {
 
 const CURRICULUM_DAYS: Record<number, { title: string; description: string }> = {
   0: { title: "견습생의 마을", description: "개발 환경 설정과 AI 에이전트 셋업" },
-  1: { title: "자기 소개", description: "자기 소개와 목표 설정" },
-  2: { title: "아이디어 탐험", description: "문제 발견과 아이디어 검증" },
-  3: { title: "시장 조사", description: "타겟 시장 리서치와 경쟁 분석" },
-  4: { title: "SPEC 작성", description: "제품 스펙 정의와 MVP 범위 설정" },
-  5: { title: "랜딩 페이지", description: "랜딩 페이지 제작과 배포" },
-  6: { title: "피드백 수집", description: "초기 피드백 수집과 분석" },
-  7: { title: "회고의 호수", description: "Week 1 회고와 방향 재설정" },
+  1: { title: "자기 소개의 광장", description: "자기 소개와 목표 설정, Discord 커뮤니티 합류" },
+  2: { title: "아이디어의 숲", description: "문제 발견과 아이디어 검증, 리서치 도구 활용" },
+  3: { title: "인터뷰의 다리", description: "고객 인터뷰와 시장 조사, Mom Test 실전" },
+  4: { title: "설계의 탑", description: "SPEC 작성과 MVP 범위 설정, 프로젝트 관리" },
+  5: { title: "랜딩의 항구", description: "랜딩 페이지 제작, 배포, 분석 도구 연결" },
+  6: { title: "홍보의 거리", description: "프로모션 채널 탐색, 광고, 커뮤니티 운영" },
+  7: { title: "회고의 호수", description: "Week 1 회고와 데이터 분석, 방향 재설정" },
 };
 
 export function learnCommand(args: string[]): unknown {

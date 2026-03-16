@@ -51,6 +51,14 @@ agnt tools list --pretty
 | [Adriel](https://agentic30.app/blog/adriel-guide) | Advertising | ✅ | - | - | - |
 | [Manus](https://agentic30.app/blog/manus-guide) | AI Agent | ✅ | - | - | - |
 | [Genspark](https://agentic30.app/blog/genspark-guide) | Search | ✅ | - | - | - |
+| [Railway](https://agentic30.app/blog/railway-guide) | Deployment | ✅ | ✅ | ✅ | - |
+| [Linear](https://agentic30.app/blog/linear-guide) | Project Mgmt | ✅ | ✅ | - | JS |
+| [GWS CLI](https://agentic30.app/blog/google-workspace-cli-guide) | Productivity | ✅ | - | ✅ | - |
+| [Discord](https://agentic30.app/blog/discord-guide) | Community | ✅ | - | - | JS, Python |
+| [agent-browser](https://agentic30.app/blog/agent-browser-guide) | Browser Auto | - | - | ✅ | - |
+| [Vercel Agent Skills](https://agentic30.app/blog/vercel-agent-skills-guide) | Agent Framework | - | - | ✅ | - |
+| [Skills CLI](https://agentic30.app/blog/skills-cli-guide) | Agent Framework | - | - | ✅ | - |
+| [dev3000](https://agentic30.app/blog/dev3000-guide) | Debugging | - | - | ✅ | JS |
 
 ## For AI Agents
 

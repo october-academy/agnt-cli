@@ -20,6 +20,7 @@
     "경쟁사 비교 분석",
     "기술 트렌드 조사"
   ],
+  "curriculum_days": [2, 3],
   "blog_url": "https://agentic30.app/blog/genspark-guide",
   "quickstart": "https://genspark.ai 에서 검색 시작"
 }

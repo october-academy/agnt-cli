@@ -4,7 +4,7 @@ import { searchCommand } from "./commands/search.js";
 import { statusCommand } from "./commands/status.js";
 import { formatOutput } from "./lib/output.js";
 
-const VERSION = "0.1.0";
+const VERSION = "0.3.0";
 
 function printHelp(): void {
   const help = `agnt v${VERSION} — Agent-friendly tool discovery for solo developers

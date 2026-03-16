@@ -25,6 +25,7 @@
     "세션 리플레이로 UX 개선",
     "피처 플래그로 점진적 배포"
   ],
+  "curriculum_days": [5, 7],
   "blog_url": "https://agentic30.app/blog/posthog-guide",
   "quickstart": "npm install posthog-js && posthog.init('YOUR_KEY', { api_host: 'https://us.i.posthog.com' })"
 }

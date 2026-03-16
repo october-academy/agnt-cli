@@ -20,6 +20,7 @@
     "데이터 수집 및 정리",
     "프로토타입 코드 생성"
   ],
+  "curriculum_days": [3],
   "blog_url": "https://agentic30.app/blog/manus-guide",
   "quickstart": "https://manus.im 에서 웨이트리스트 등록"
 }

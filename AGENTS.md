@@ -28,7 +28,7 @@ Errors return `{"error": "message", "code": "ERROR_CODE"}` with exit code 1.
 
 ## Tool Registry
 
-5 curated tools for solopreneurs:
+13 curated tools for solopreneurs:
 
 | ID | Category | API | MCP | CLI |
 |----|----------|-----|-----|-----|
@@ -37,6 +37,19 @@ Errors return `{"error": "message", "code": "ERROR_CODE"}` with exit code 1.
 | adriel | advertising | yes | no | no |
 | manus | ai-agent | yes | no | no |
 | genspark | search | yes | no | no |
+| railway | deployment | yes | yes | yes |
+| linear | project-management | yes | yes | no |
+| google-workspace-cli | productivity | yes | no | yes |
+| discord | community | yes | no | no |
+| agent-browser | browser-automation | no | no | yes |
+| vercel-agent-skills | agent-framework | no | no | yes |
+| skills-cli | agent-framework | no | no | yes |
+| dev3000 | debugging | no | no | yes |
+
+## Agent Plugins
+
+16 curated plugins for AI coding agents: https://github.com/october-academy/agent-plugins
+Install: `npx skills add october-academy/agent-plugins -a claude-code --skill '*' -y`
 
 ## For AI Agents
 
