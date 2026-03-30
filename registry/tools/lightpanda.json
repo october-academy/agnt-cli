@@ -1,0 +1,28 @@
+{
+  "id": "lightpanda",
+  "name": "Lightpanda",
+  "category": "automation",
+  "tagline": "머신 전용 헤드리스 브라우저 — Zig 네이티브, Chrome 대비 10배 빠르고 10배 적은 메모리",
+  "last_verified": "2026-03-30",
+  "agent_interfaces": {
+    "api": { "available": true, "docs_url": "https://lightpanda.io/docs/" },
+    "mcp": { "available": true, "docs_url": "https://lightpanda.io/docs/" },
+    "cli": { "available": true, "install": "npm install -g @nicepage/lightpanda" },
+    "sdk": [
+      { "lang": "javascript", "package": "@nicepage/lightpanda" }
+    ]
+  },
+  "pricing": {
+    "free_tier": true,
+    "starting_price": "오픈소스 무료, 클라우드 별도"
+  },
+  "solopreneur_use_cases": [
+    "AI 에이전트용 초고속 웹 스크래핑",
+    "Playwright·Puppeteer 드롭인 대체 (CDP 호환)",
+    "랜딩페이지 E2E 테스트 자동화",
+    "경쟁사 모니터링 크롤러",
+    "서버리스 환경 브라우저 자동화 (sub-100ms 콜드 스타트)"
+  ],
+  "blog_url": "https://agentic30.app/blog/lightpanda-guide",
+  "quickstart": "# Playwright 연동\nconst browser = await chromium.connectOverCDP('ws://localhost:9222');\nconst page = await browser.newPage();\nawait page.goto('https://example.com');"
+}
