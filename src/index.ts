@@ -40,7 +40,7 @@ Use --pretty for human-readable formatting.`;
 function main(): void {
   const args = process.argv.slice(2);
   const pretty = args.includes("--pretty");
-  const filteredArgs = args.filter((a) => a !== "--pretty");
+  const filteredArgs = args.filter((a: string) => a !== "--pretty");
 
   if (filteredArgs.length === 0 || filteredArgs.includes("--help") || filteredArgs.includes("-h")) {
     printHelp();

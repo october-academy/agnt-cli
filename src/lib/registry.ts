@@ -58,14 +58,15 @@ export function loadTools(): Tool[] {
   if (cachedTools) return cachedTools;
 
   const toolsDir = getRegistryPath();
-  const files = readdirSync(toolsDir).filter((f) => f.endsWith(".json"));
+  const files = readdirSync(toolsDir).filter((f: string) => f.endsWith(".json"));
 
-  cachedTools = files.map((file) => {
+  const tools = files.map((file: string) => {
     const content = readFileSync(join(toolsDir, file), "utf-8");
     return JSON.parse(content) as Tool;
   });
+  cachedTools = tools;
 
-  return cachedTools;
+  return tools;
 }
 
 export function findTool(id: string): Tool | undefined {
